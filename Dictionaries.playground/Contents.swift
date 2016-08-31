@@ -28,3 +28,13 @@ definition = favoriteWords["strategery"]
 
 favoriteWords["strategery"] = nil
 print(favoriteWords)
+
+print(favoriteWords["gobbledygook"])
+definition = favoriteWords["gobbledygook"]
+
+
+if let definition = definition {
+    print("\(definition)")
+} else {
+    print("'gobbledygook' isn't a word")
+}
